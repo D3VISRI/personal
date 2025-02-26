@@ -1,0 +1,116 @@
+.cart-container {
+  padding: 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.cart-items {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.item-info h3 {
+  margin: 0;
+  color: #333;
+}
+
+.restaurant-name {
+  color: #666;
+  font-size: 0.9rem;
+  margin: 0.5rem 0;
+}
+
+.price {
+  color: #4ecdc4;
+  font-weight: bold;
+  margin: 0;
+}
+
+.remove-btn {
+  background-color: #ff6b35;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.cart-summary {
+  background-color: white;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.total {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.proceed-btn {
+  width: 100%;
+  background-color: #4ecdc4;
+  color: white;
+  border: none;
+  padding: 1rem;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+
+.empty-cart {
+  text-align: center;
+  color: #666;
+  font-size: 1.1rem;
+}
+
+.order-success {
+  text-align: center;
+  padding: 2rem;
+}
+
+.continue-btn {
+  background-color: #4ecdc4;
+  color: white;
+  border: none;
+  padding: 1rem 2rem;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+.subscription-item,
+.paid-items {
+  margin-bottom: 2rem;
+}
+
+.subscription-item h3,
+.paid-items h3 {
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.cart-item.subscription {
+  border: 2px solid #4ecdc4;
+}
+
+.subscription-item .price {
+  color: #4ecdc4;
+  font-weight: bold;
+}
